@@ -7,19 +7,7 @@
   --accent: #ece2cb;
 }
 
-@font-face {
-  font-family: "Mister Pixel 16 OSF";
-  font-weight: 400;
-  font-style: normal;
-  src: url('MP16OSF.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: "VCR OSD Mono";
-  font-weight: 400;
-  font-style: normal;
-  src: url('VCR_OSD_MONO_1.001.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Roboto+Mono:wght@400&display=swap');
 
 * {
   box-sizing: border-box;
@@ -32,7 +20,7 @@ body {
 
 body {
   margin: 0;
-  font-family: "Mister Pixel 16 OSF", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "VT323", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   background: var(--bg);
   color: var(--text);
   line-height: 1.5;
@@ -245,7 +233,7 @@ main {
 }
 
 .project-kicker {
-  font-family: "VCR OSD Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   text-transform: uppercase;
   letter-spacing: -0.02em;
   font-size: 0.95rem;
@@ -284,7 +272,7 @@ main {
 }
 
 .hero-title .h1 {
-  font-family: "VCR OSD Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   text-transform: uppercase;
   letter-spacing: -0.02em;
   font-size: 2.5rem;
@@ -294,7 +282,7 @@ main {
 }
 
 .hero-subtitle {
-  font-family: "Mister Pixel 16 OSF", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "VT323", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 1.2rem;
   color: var(--muted);
   margin: 8px 0 0;
